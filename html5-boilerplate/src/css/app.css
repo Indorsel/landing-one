@@ -73,7 +73,7 @@ small {
 }
 
 figure {
-  margin: 1em 40px;
+  margin: 1em 2.5rem;
 }
 
 img {
@@ -122,9 +122,9 @@ textarea {
 
 hr {
   display: block;
-  height: 1px;
+  height: 0.0625rem;
   border: 0;
-  border-top: 1px solid #ccc;
+  border-top: 0.0625rem solid #ccc;
   margin: 1em 0;
   padding: 0;
 }
@@ -161,15 +161,15 @@ main h1 {
 /* HEADER */
 
 header {
-  width: 1440px;
-  height: 799px;
+  width: 90rem;
+  height: 50rem;
   background: #eff0f2;
 }
 
 
 h1 {
-  width: 1px;
-  height: 1px;
+  width: 0.0625rem;
+  height: 0.0625rem;
   border: 0;
   margin: 0;
   overflow: hidden;
@@ -182,17 +182,17 @@ h1 {
   top: 7.25%;
   left: 10.4%;
   display: block;
-  width: 114px;
-  height: 46px;
-  border: 6px solid black;
+  width: 7.125rem;
+  height: 2.875rem;
+  border: 0.375rem solid black;
   align-items: center;
   text-align: center;
 }
 
 .wrapper-logo img {
-  width: 85px;
-  height: 16px;
-  margin-top: 10px;
+  width: 5.3125rem;
+  height: 1rem;
+  margin-top: 0.625rem;
 }
 
 /* HEADER BURGER MENU */
@@ -201,8 +201,8 @@ h1 {
   position: relative;
   left: 68.5%;
   top: 2.5%;
-  width: 300px;
-  height: 40px;
+  width: 18.75rem;
+  height: 2.5rem;
   font-size: 2rem;
   text-align: right;
 }
@@ -212,8 +212,8 @@ label[for="check-menu"] {
   top: 0;
   left: 0;
   display: block;
-  width: 300px;
-  line-height: 40px;
+  width: 18.75rem;
+  line-height: 2.5rem;
   font-size: 1.9rem;
   cursor: pointer;
 }
@@ -223,7 +223,7 @@ label[for="check-menu"] {
 }
 
 .fas.fa-bars {
-  width: 40px;
+  width: 2.5rem;
 }
 
 .main-menu {
@@ -241,7 +241,7 @@ label[for="check-menu"] {
 a {
   display: block;
   width: 100%;
-  padding: 10px;
+  padding: 0.625rem;
   color: black;
   text-decoration: none;
   background: none;
@@ -250,7 +250,7 @@ a {
 }
 
 #check-menu:checked ~ .main-menu {
-  max-height: 500px;
+  max-height: 31.25rem;
   font-size: 1.5rem;
   line-height: 0.5rem;
 }
@@ -265,21 +265,21 @@ a {
   position: relative;
   top: 13.8125rem;
   text-align: center;
-  line-height: 40px;
+  line-height: 2.5rem;
 }
 
 .header-title-area p{
   position: relative;
   padding-left: 1.475rem;
   letter-spacing: 0.146875rem;
-  word-spacing: -4px;
+  word-spacing: -0.25rem;
   font-family: 'Montserrat', sans-serif;
   font-size: 2.85rem;
   font-weight: 700;
   color: rgba(80, 80, 80, 255);
   text-transform: uppercase;
   text-align: center;
-  text-shadow: 0px 5px 5px rgba(0,0,0,0.3);
+  text-shadow: 0rem 0.3125rem 0.3125rem rgba(0,0,0,0.3);
 }
 
 .header-title-area p:nth-child(2) {
@@ -300,14 +300,14 @@ a {
 }
 
 .wrapper-input input {
-  width: 232px;
-  height: 52px;
-  border: 1px solid black;
+  width: 14.5rem;
+  height: 3.25rem;
+  border: 0.0625rem solid black;
   text-transform: uppercase;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: 1.2rem;
-  letter-spacing: 1px;
+  letter-spacing: 0.0625rem;
   background: #eff0f2;
 }
 
@@ -325,13 +325,13 @@ a {
   position: absolute;
   top: 0;
   left: 0;
-  width: 69px;
-  height: 68px;
+  width: 4.3125rem;
+  height: 4.25rem;
 }
 
 .wrapper-img img:nth-child(2) {
-  top: -17px;
-  left: 7px;
+  top: -1.0625rem;
+  left: 0.4375rem;
 }
 
 
@@ -342,17 +342,17 @@ MAIN
 */
 
 main {
-  width: 1440px;
+  width: 90rem;
   position: relative;
 }
 
 #about-us {
-  height: 985px;
+  height: 61.5625rem;
   background: #F8FAFA;
 }
 
 #featured-works {
-  height: 999px;
+  height: 62.5rem;
 }
 
 #our-services, #what-they-says {
@@ -360,23 +360,23 @@ main {
 }
 
 #our-services {
-  height: 1619px;
+  height: 101.25rem;
 }
 
 #small-team {
-  height: 657px;
+  height: 41.0625rem;
 }
 
 #what-they-says {
-  height: 924px;
+  height: 57.75rem;
 }
 
 /* ABOUT US SECTION */
 
 #about-us .text-title {
-  padding-top: 121px;
-  padding-left: 21px;
-  letter-spacing: 1px;
+  padding-top: 7.5625rem;
+  padding-left: 1.3125rem;
+  letter-spacing: 0.0625rem;
 }
 
 
@@ -401,7 +401,7 @@ main h3 {
   font-weight: 400;
   line-height: 0;
   word-spacing: 0.0625rem;
-  letter-spacing: 1.4px;
+  letter-spacing: 0.0875rem;
 }
 
 main h4, h5 {
@@ -451,8 +451,8 @@ main h5 {
   flex-direction: column;
   width: 50%;
   position: relative;
-  padding-bottom: 94px;
-  padding-left: 57px;
+  padding-bottom: 5.875rem;
+  padding-left: 3.5625rem;
 }
 
 .text-area h4 {
@@ -469,9 +469,9 @@ main .text {
 
 .text-area p {
   width: 30.625rem;
-  padding-top: 16.5px;
-  line-height: 29px;
-  letter-spacing: 0.8px;
+  padding-top: 1.03125rem;
+  line-height: 1.8125rem;
+  letter-spacing: 0.05rem;
 }
 
 
@@ -510,8 +510,8 @@ main .text {
 .slider-image
 {
     float: left;
-    margin: 0px;
-    padding: 0px;
+    margin: 0rem;
+    padding: 0rem;
     position: relative;
 }
 
@@ -580,10 +580,10 @@ SECTIONS
 
 #featured-works .text-title {
   height: 20%;
-  padding-top: 120px;
-  padding-left: 40px;
-  word-spacing: -5px;
-  letter-spacing: 0.9px;
+  padding-top: 7.5rem;
+  padding-left: 2.5rem;
+  word-spacing: -0.3125rem;
+  letter-spacing: 0.05625rem;
 }
 
 #featured-works .template {
@@ -594,7 +594,7 @@ SECTIONS
   font-weight: 400;
   line-height: 0;
   word-spacing: -0.1375rem;
-  letter-spacing: 1.2px;
+  letter-spacing: 0.075rem;
 }
 
 #featured-works .image-container {
@@ -684,10 +684,10 @@ SECTIONS
 #our-services .text-title {
   height: 15%;
   width: 100%;
-  padding-top: 75px;
-  padding-left: 3px;
-  word-spacing: -5px;
-  letter-spacing: 1.4px;
+  padding-top: 4.6875rem;
+  padding-left: 0.1875rem;
+  word-spacing: -0.3125rem;
+  letter-spacing: 0.0875rem;
 }
 
 #our-services .template {
@@ -698,7 +698,7 @@ SECTIONS
   font-weight: 400;
   line-height: 0;
   word-spacing: -0.1375rem;
-  letter-spacing: 1.2px;
+  letter-spacing: 0.075rem;
 }
 
 #our-services .image-container {
@@ -801,10 +801,10 @@ SECTIONS
 #small-team .text-title {
   height: 15%;
   width: 100%;
-  padding-top: 79px;
-  padding-left: 6px;
-  word-spacing: -3px;
-  letter-spacing: 1.1px;
+  padding-top: 4.9375rem;
+  padding-left: 0.375rem;
+  word-spacing: -0.1875rem;
+  letter-spacing: 0.06875rem;
 }
 
 #small-team .text-title .template {
@@ -875,8 +875,8 @@ SECTIONS
   height: 30%;
   width: 100%;
   padding-top: 7rem;
-  word-spacing: 0px;
-  letter-spacing: 0.9px;
+  word-spacing: 0rem;
+  letter-spacing: 0.05625rem;
 }
 
 #what-they-says .slider-container {
@@ -921,8 +921,8 @@ SECTIONS
 #what-they-says .slider-image {
   width: 100%;
   height: 100%;
-  margin: 0px;
-  padding: 0px;
+  margin: 0rem;
+  padding: 0rem;
   position: relative;
 }
 
@@ -1027,7 +1027,7 @@ footer {
 .contacts form input{
   width: 34.375rem;
   border: none;
-  border-bottom: 1px solid white;
+  border-bottom: 0.0625rem solid white;
   background-color: #3b505e;
   opacity: 0.7;
   line-height: 2.5rem;
@@ -1175,7 +1175,7 @@ footer address {
   a[href^="javascript:"]:after {
     content: ""; }
   pre, blockquote {
-    border: 1px solid #999;
+    border: 0.0625rem solid #999;
     page-break-inside: avoid; }
   img {
     max-width: 100% !important;
